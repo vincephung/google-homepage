@@ -1,0 +1,87 @@
+/*global css */
+
+a{
+    text-decoration: none;
+    color: black; 
+    padding: 0 20px;
+
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    
+}
+
+
+li{
+    display: inline;
+
+
+}
+/*nav bar section */
+#navbar{
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+#navbar .left-side{
+    float:left;
+}
+
+#navbar .right-side{
+    float:right;
+}
+
+
+
+/*search section*/
+
+.logo-container{
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 200px;
+}
+
+
+#search-bar{
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    padding: 0 120px;
+    
+}
+
+#buttons{
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    padding: 10px;
+}
+
+/* footer section */
+#footer{
+    bottom:0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#footer .right-side{
+    float:right;
+}
+
+#footer .left-side{
+    float: left;
+}
